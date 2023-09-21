@@ -25,13 +25,24 @@ int main (){
    scanf("%d", &num1);
    printf(" Enter second number :\n");
    scanf("%d",&num2 );
-   int sum = num1 + num2;
-   printf("sum is %d", sum);
+//    int sum = num1 + num2;
+//    printf("sum is %d", sum);
+    printf("Subtract is : %d", num1 - num2);
+    printf("\n sum is : %d", num1 + num2);
+    printf("\n Product is : %d", num1 * num2);
+    printf("\n division is : %d", num1 / num2);
+
+
 
 //    printf("your first num is: %d ", num1, "and second num is: %d", num2);
 //    printf("number1 + number2 is: &d", num1+num2);
    
    
+
+
+
+
+
    
    
    
