@@ -67,29 +67,40 @@ int main (){
     // }
 
 
-    int day ; // days represent by 1-7
+    // int day ; // days represent by 1-7
 
-    printf("Enter number (1 - 7) ");
-    scanf("%d", &day);
+    // printf("Enter number (1 - 7) ");
+    // scanf("%d", &day);
 
-    switch (day)
-    {
-    case 1:  printf("monday");
-        break;
-    case 2:  printf("Tuesday");
-        break;
-    case 3:  printf("Wednesday");
-        break;
-    case 4:  printf("Thrusday");
-        break;
-    case 5:  printf("Friday");
-        break;
-    case 6:  printf("Satuarday");
-        break;
-    case 7:  printf("Sunday");
-        break;
-    default: printf("Not a valid number");
+    // switch (day)
+    // {
+    // case 1:  printf("monday");
+    //     break;
+    // case 2:  printf("Tuesday");
+    //     break;
+    // case 3:  printf("Wednesday");
+    //     break;
+    // case 4:  printf("Thrusday");
+    //     break;
+    // case 5:  printf("Friday");
+    //     break;
+    // case 6:  printf("Satuarday");
+    //     break;
+    // case 7:  printf("Sunday");
+    //     break;
+    // default: printf("Not a valid number");
+    // }
+    int num;
+    printf("Enter the value for n:");
+    scanf("%d",&num);
+
+    if(num%3 == 0){
+        printf("Number is multiple of 3 ");
+        }
+    else{
+        printf("number is not multiple of three");
     }
+
 
 
 
